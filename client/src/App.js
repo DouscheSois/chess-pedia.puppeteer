@@ -8,8 +8,12 @@ import "./App.css";
 
 const infoSummary = [
   {
-    title: "Setup",
+    title: "Chess Setup",
     summary: "Setup is the setup of chess",
+  },
+  {
+    title: "Chess 2",
+    summary: "Chess 2 is this one",
   },
 ];
 
@@ -17,7 +21,7 @@ const App = () => {
   return (
     <main className="py-1">
       <Container>
-        <ChessSetup />
+        <ChessSetup info={infoSummary} />
       </Container>
     </main>
   );
