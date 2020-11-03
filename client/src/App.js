@@ -6,6 +6,13 @@ import { Container } from "react-bootstrap";
 
 import "./App.css";
 
+const infoSummary = [
+  {
+    title: "Setup",
+    summary: "Setup is the setup of chess",
+  },
+];
+
 const App = () => {
   return (
     <main className="py-1">
