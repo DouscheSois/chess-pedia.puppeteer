@@ -1,0 +1,23 @@
+{
+  "name": "chess-pedia.puppeteer",
+  "version": "1.0.0",
+  "description": "Webscrapping application that crawls the wikipedia page of chess w/ puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DouscheSois/chess-pedia.puppeteer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DouscheSois/chess-pedia.puppeteer/issues"
+  },
+  "homepage": "https://github.com/DouscheSois/chess-pedia.puppeteer#readme",
+  "dependencies": {
+    "puppeteer": "^5.4.1"
+  }
+}
