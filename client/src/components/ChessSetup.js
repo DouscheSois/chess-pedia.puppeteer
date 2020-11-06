@@ -7,8 +7,8 @@ import SetupItem from "./SetupItem";
 const ChessSetup = ({ info }) => {
   return (
     <Container>
-      {info.map((item) => (
-        <SetupItem item={item} />
+      {info.map((item, key) => (
+        <SetupItem item={item} key={key} />
       ))}
     </Container>
   );
