@@ -1,8 +1,8 @@
 # Getting Started with Create React App
 
-IN DEVELOPMENT~~~
+IN DEVELOPMENT~~~ This is what I have so far
 
-<img src="client/src/media/pup1.png" width="550" height="500">
+<img src="client/src/media/pup1.png" width="750" height="500">
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
