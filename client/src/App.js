@@ -6,10 +6,6 @@ import { Container } from "react-bootstrap";
 
 import "./App.css";
 
-// Redux
-import { Provider } from "react-redux";
-import store from "./store";
-
 const App = () => {
   const [heading, setHeading] = useState([]);
 
@@ -29,13 +25,13 @@ const App = () => {
   }, []);
 
   return (
-    <Provider store={store}>
+    <>
       <main className="py-1">
         <Container>
           <ChessSetup info={heading} />
         </Container>
       </main>
-    </Provider>
+    </>
   );
 };
 
