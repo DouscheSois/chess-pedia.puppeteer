@@ -9,9 +9,10 @@ router.get("/", async (req, res) => {
     await page.goto("https://en.wikipedia.org/wiki/Chess");
 
     const results = await page.evaluate(() => {
-      let resultsFromWikiChess = document.querySelectorAll(".mw-headline");
+      let headingFromWikiChess = document.querySelectorAll(".toclevel-1 > a");
+      let dataFromWikiChess = document.querySelectorAll(".toclevel-1 ul");
 
-      const resultList = [...resultsFromWikiChess];
+      const resultList = [...headingFromWikiChess, ...dataFromWikiChess];
 
       return resultList.map((result) => result.innerText);
     });

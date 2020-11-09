@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 
 import ChessSetup from "./components/ChessSetup";
+import Heading from "./components/Heading";
+import Footnote from "./components/Footnote";
 
 import { Container } from "react-bootstrap";
 
@@ -26,10 +28,12 @@ const App = () => {
 
   return (
     <>
-      <main className="py-1">
-        <Container>
+      <main className="py-3">
+        <Heading />
+        <Container className="py-1">
           <ChessSetup info={heading} />
         </Container>
+        <Footnote />
       </main>
     </>
   );
