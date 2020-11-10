@@ -6,7 +6,7 @@ React, Node, Express, Puppeteer
 
 1. You can see all the sublinks here.
 
-<img src="client/src/media/pup1.png" width="650" height="500">
+<img src="client/src/media/pup1.png" width="7000" height="500">
 
 2. And once you want to read more about a specific one, you click on it and it takes you directly to the wiki chess page.
 
