@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import ChessSetup from "./components/ChessSetup";
+
 import Heading from "./components/Heading";
 import Footnote from "./components/Footnote";
 

@@ -2,13 +2,13 @@ import React from "react";
 
 import { Container } from "react-bootstrap";
 
-import SetupItem from "./SetupItem";
+import ChessItem from "./ChessItem";
 
 const ChessSetup = ({ info }) => {
   return (
     <Container>
       {info.map((item, key) => (
-        <SetupItem item={item} key={key} />
+        <ChessItem item={item} key={key} />
       ))}
     </Container>
   );
