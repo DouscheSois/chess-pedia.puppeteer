@@ -10,7 +10,7 @@ React, Node, Express, Puppeteer
 
 2. And once you want to read more about a specific one, you click on it and it takes you directly to the wiki chess page.
 
-<img src="client/src/media/pup2.png" width="700" height="500">
+<img src="client/src/media/pup2.png" width="700" height="600">
 
 # Available Scripts
 
